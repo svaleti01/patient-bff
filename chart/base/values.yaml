@@ -44,4 +44,4 @@ partOf: ""
 
 connectsTo: "patient"
 
-runtime: "node"
+runtime: "nodejs"
