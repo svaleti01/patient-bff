@@ -42,6 +42,6 @@ vcsInfo:
 
 partOf: ""
 
-connectsTo: "pharmacist"
+connectsTo: "patient"
 
 runtime: "node"
