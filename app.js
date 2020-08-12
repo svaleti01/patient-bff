@@ -49,7 +49,7 @@ var root = {
 var app = express();
 app.use(cors());
 app.use(
-  "/graphql",
+  "/patient/graphql",
   graphqlHTTP({
     schema: schema,
     rootValue: root,
