@@ -54,7 +54,7 @@ spec:
               value: ""
             - name: LOG_LEVEL
               value: {{ .Values.logLevel | quote }}
-            - name: PHARMACIST_URL
+            - name: PATIENT_URL
               value: {{ printf "http://%s" .Values.connectsTo | quote }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
